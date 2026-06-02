@@ -1,0 +1,86 @@
+[
+  {
+    "intent": "greeting",
+    "menu_number": null,
+    "keywords": ["halo", "tes", "test", "hai", "p", "hello", "assalamualaikum", "permisi", "hallo"],
+    "priority_keywords": ["halo", "hai", "misi", "permisi"],
+    "reply": "Halo! Selamat datang di Fannia Entertainment. ✨ Ada yang bisa kami bantu? Silakan tanya soal Profil, Layanan, Paket, Testimoni, atau Kontak kami ya!",
+    "wa_text": "Halo Admin Fannia Entertainment, saya mau tanya-tanya nih."
+  },
+  {
+    "intent": "profil_perusahaan",
+    "menu_number": "1",
+    "keywords": ["profil", "company", "sejarah", "fannia", "eo", "wo", "tentang", "about", "siapa", "background"],
+    "priority_keywords": ["profil", "tentang fannia"],
+    "reply": "Fannia Entertainment adalah Wedding & Event Organizer profesional yang berbasis di Tangerang. Kami siap mengurus seluruh kebutuhan acaramu mulai dari perencanaan, dekorasi, hingga hari H agar berjalan tanpa celah! 🌸",
+    "wa_text": "Halo Admin Fannia Entertainment, saya mau tahu lebih dalam tentang layanan EO/WO-nya."
+  },
+  {
+    "intent": "layanan_servis",
+    "menu_number": "2",
+    "keywords": ["layanan", "servis", "service", "bisa", "bantu", "ngurus", "sedia", "kalian", "ngapain", "gathering", "gath", "corporate", "dekorasi", "dekor", "catering", "pesta", "sound", "lighting"],
+    "priority_keywords": ["ulang tahun", "ultah", "birthday", "sweet 17", "sweet seventeen", "gathering"],
+    "reply": "Kami menyediakan layanan lengkap (All-in), meliputi:\n- Wedding Organizer & Planner\n- Corporate & Family Gathering\n- Sweet 17th / Birthday Party\n- Sound System, Lighting, & Stage Management.",
+    "wa_text": "Halo Admin Fannia Entertainment, saya mau konsultasi layanan acara."
+  },
+  {
+    "intent": "paket_dan_harga",
+    "menu_number": "3",
+    "keywords": ["paket", "harga", "pricelist", "biaya", "wedding", "nikah", "event", "dana", "budget", "brpaan", "murah", "silver", "gold", "price", "cost", "rate", "bayar", "berapa", "kisaran", "hagra", "harganya"],
+    "priority_keywords": ["harga", "paket", "pricelist", "biaya", "hagra"],
+    "reply": "Berikut daftar paket terfavorit di Fannia Entertainment:\n\n💎 PAKET WEDDING:\n1. Silver (300 Undangan) - Rp 25 Juta\n2. Gold (600 Undangan) - Rp 45 Juta\n\n🎉 PAKET EVENT / GATHERING:\n- Mulai dari Rp 15 Juta (All-in termasuk MC & Sound)\n\nKakak tertarik untuk buat acara apa nih?",
+    "wa_text": "Halo Admin Fannia Entertainment, saya mau minta brosur paket dan pricelist lengkapnya dong."
+  },
+  {
+    "intent": "testimoni",
+    "menu_number": "4",
+    "keywords": ["testi", "testimoni", "review", "kata orang", "bagus ga", "puas", "portofolio", "dokumentasi", "klien", "pengalaman", "ulasan"],
+    "priority_keywords": ["testi", "testimoni", "review", "ulasan"],
+    "reply": "Alhamdulillah, ratusan klien kami menyatakan puas banget! Rata-rata mereka memuji tim kami yang cekatan, on-time, dan dekorasi yang melebihi ekspektasi. Kakak bisa cek dokumentasi acara asli kami di link website atau Instagram kami ya! ✨",
+    "wa_text": "Halo Admin Fannia Entertainment, boleh liat foto/video dokumentasi acara yang pernah dihandle?"
+  },
+  {
+    "intent": "kontak_lokasi",
+    "menu_number": "5",
+    "keywords": ["kontak", "alamat", "lokasi", "kantor", "wa", "nomor", "tangerang", "pasar kemis", "instagram", "ig", "call", "phone", "address", "location", "maps", "shareloc", "no hp", "whatsapp"],
+    "priority_keywords": ["hubungi", "kontak", "alamat", "lokasi", "no wa", "whatsapp", "daftar", "booking"],
+    "reply": "Kantor Fannia Entertainment berlokasi di Tangerang. Untuk konsultasi tatap muka, kakak bisa membuat janji terlebih dahulu.\n\n📞 WhatsApp: +62 812-3456-789\n🌐 Instagram: @fanniaentertainment",
+    "wa_text": "Halo Admin Fannia Entertainment, saya mau atur jadwal ketemu untuk konsultasi acara."
+  },
+  {
+  "intent": "booking",
+  "menu_number": null,
+  "keywords": ["booking", "book", "reservasi", "pesan", "daftar", "order", "jadwal", "meeting"],
+  "priority_keywords": ["booking", "reservasi", "pesan paket"],
+  "reply": "Untuk melakukan booking atau konsultasi, kakak bisa langsung menghubungi admin melalui WhatsApp. Tim kami akan membantu menentukan paket dan jadwal yang sesuai ya ✨",
+  "wa_text": "Halo Admin Fannia Entertainment, saya ingin melakukan booking dan konsultasi acara."
+},
+{
+  "intent": "vendor",
+  "menu_number": null,
+  "keywords": ["vendor", "dekorasi", "mc", "catering", "sound", "lighting", "musik", "band"],
+  "priority_keywords": ["dekorasi", "catering", "mc"],
+  "reply": "Tentu kak ✨ Kami menyediakan berbagai vendor pendukung acara seperti dekorasi, catering, MC, sound system, lighting, dokumentasi, hingga entertainment.",
+  "wa_text": "Halo Admin, saya ingin konsultasi vendor acara."
+},
+{
+  "intent": "cek_jadwal",
+  "menu_number": null,
+  "keywords": ["jadwal", "tanggal", "available", "kosong", "slot"],
+  "priority_keywords": ["jadwal", "tanggal kosong"],
+  "reply": "Untuk pengecekan jadwal yang tersedia, silakan hubungi admin kami ya kak karena ketersediaan tanggal selalu berubah.",
+  "wa_text": "Halo Admin, saya ingin cek ketersediaan jadwal acara."
+},
+{
+  "intent": "cakupan_wilayah",
+  "menu_number": null,
+  "keywords": ["jakarta", "bogor", "depok", "bekasi", "bandung", "keluar kota", "wilayah"],
+  "priority_keywords": ["keluar kota", "wilayah"],
+  "reply": "Fannia Entertainment melayani berbagai wilayah Jabodetabek dan luar kota sesuai kebutuhan acara.",
+  "wa_text": "Halo Admin, saya ingin menanyakan cakupan wilayah layanan."
+},
+{
+  "intent": "fallback",
+  "reply": "Maaf kak, saya belum memahami pertanyaan tersebut 🙏 Silakan pilih menu yang tersedia atau hubungi admin untuk konsultasi langsung."
+}
+]
