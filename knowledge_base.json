@@ -46,41 +46,5 @@
     "priority_keywords": ["hubungi", "kontak", "alamat", "lokasi", "no wa", "whatsapp", "daftar", "booking"],
     "reply": "Kantor Fannia Entertainment berlokasi di Tangerang. Untuk konsultasi tatap muka, kakak bisa membuat janji terlebih dahulu.\n\n📞 WhatsApp: +62 812-3456-789\n🌐 Instagram: @fanniaentertainment",
     "wa_text": "Halo Admin Fannia Entertainment, saya mau atur jadwal ketemu untuk konsultasi acara."
-  },
-  {
-  "intent": "booking",
-  "menu_number": null,
-  "keywords": ["booking", "book", "reservasi", "pesan", "daftar", "order", "jadwal", "meeting"],
-  "priority_keywords": ["booking", "reservasi", "pesan paket"],
-  "reply": "Untuk melakukan booking atau konsultasi, kakak bisa langsung menghubungi admin melalui WhatsApp. Tim kami akan membantu menentukan paket dan jadwal yang sesuai ya ✨",
-  "wa_text": "Halo Admin Fannia Entertainment, saya ingin melakukan booking dan konsultasi acara."
-},
-{
-  "intent": "vendor",
-  "menu_number": null,
-  "keywords": ["vendor", "dekorasi", "mc", "catering", "sound", "lighting", "musik", "band"],
-  "priority_keywords": ["dekorasi", "catering", "mc"],
-  "reply": "Tentu kak ✨ Kami menyediakan berbagai vendor pendukung acara seperti dekorasi, catering, MC, sound system, lighting, dokumentasi, hingga entertainment.",
-  "wa_text": "Halo Admin, saya ingin konsultasi vendor acara."
-},
-{
-  "intent": "cek_jadwal",
-  "menu_number": null,
-  "keywords": ["jadwal", "tanggal", "available", "kosong", "slot"],
-  "priority_keywords": ["jadwal", "tanggal kosong"],
-  "reply": "Untuk pengecekan jadwal yang tersedia, silakan hubungi admin kami ya kak karena ketersediaan tanggal selalu berubah.",
-  "wa_text": "Halo Admin, saya ingin cek ketersediaan jadwal acara."
-},
-{
-  "intent": "cakupan_wilayah",
-  "menu_number": null,
-  "keywords": ["jakarta", "bogor", "depok", "bekasi", "bandung", "keluar kota", "wilayah"],
-  "priority_keywords": ["keluar kota", "wilayah"],
-  "reply": "Fannia Entertainment melayani berbagai wilayah Jabodetabek dan luar kota sesuai kebutuhan acara.",
-  "wa_text": "Halo Admin, saya ingin menanyakan cakupan wilayah layanan."
-},
-{
-  "intent": "fallback",
-  "reply": "Maaf kak, saya belum memahami pertanyaan tersebut 🙏 Silakan pilih menu yang tersedia atau hubungi admin untuk konsultasi langsung."
-}
+  }
 ]
