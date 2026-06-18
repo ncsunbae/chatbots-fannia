@@ -3,86 +3,134 @@
     "intent": "greeting",
     "menu_number": null,
     "keywords": ["halo", "tes", "test", "hai", "p", "hello", "assalamualaikum", "permisi", "hallo"],
-    "priority_keywords": ["halo", "hai", "misi", "permisi"],
-    "reply": "Halo! Selamat datang di Fannia Entertainment. ✨ Ada yang bisa kami bantu? Silakan pilih menu di bawah atau ketik langsung pertanyaanmu ya!",
+    "priority_keywords": ["halo", "hai", "misi", "permisi", "test", "tes"],
+    "reply": "Halo! Selamat datang di Fannia Entertainment. Kami adalah Wedding & Event Organizer profesional yang siap merancang pernikahan dan berbagai acara spesial Anda dengan konsep elegan, modern, serta pelayanan profesional.\n\nSilakan pilih menu di bawah atau ketik langsung pertanyaanmu ya!",
     "next_state": "pilih_menu",
     "wa_number": "6281316429729",
     "wa_text": "Halo Admin Fannia Entertainment, saya mau tanya-tanya nih.",
     "actions": [
-      { "label": "💎 Paket & Harga", "value": "paket dan harga" },
-      { "label": "🥳 Layanan & Servis", "value": "layanan" },
-      { "label": "🏢 Profil Perusahaan", "value": "profil" },
-      { "label": "📞 Kontak & Lokasi", "value": "kontak" }
+      { "label": "Paket & Harga", "value": "paket dan harga" },
+      { "label": "Layanan & Servis", "value": "layanan" },
+      { "label": "Cara Kerja Kami", "value": "cara kerja" },
+      { "label": "Mitra Vendor", "value": "mitra vendor" },
+      { "label": "Profil Perusahaan", "value": "profil" },
+      { "label": "Kontak & Lokasi", "value": "kontak" }
     ]
   },
   {
     "intent": "profil_perusahaan",
     "menu_number": "1",
-    "keywords": ["profil", "company", "sejarah", "fannia", "eo", "wo", "tentang", "about", "siapa", "background"],
-    "priority_keywords": ["profil", "tentang fannia"],
-    "reply": "Fannia Entertainment adalah Wedding & Event Organizer profesional yang berbasis di Tangerang. Kami siap mengurus seluruh kebutuhan acaramu mulai dari perencanaan, dekorasi, hingga hari H agar berjalan tanpa celah! 🌸",
+    "keywords": ["profil", "company", "sejarah", "fannia", "eo", "wo", "tentang", "about", "siapa", "background", "pengalaman"],
+    "priority_keywords": ["profil", "tentang fannia", "about us"],
+    "reply": "Fannia Entertainment merupakan Wedding Organizer dan Event Organizer yang berfokus pada perencanaan serta pengelolaan berbagai acara dengan konsep kreatif dan profesional.\n\nKenapa Memilih Kami?\n- Pengalaman Terbukti (450+ Klien Percaya, 650+ Eksekusi Sukses)\n- Layanan Premium dengan mengutamakan kepuasan klien 100%\n- Kreativitas Tanpa Batas & Profesionalisme Tinggi.",
     "next_state": "none",
     "wa_number": "6281316429729",
     "wa_text": "Halo Admin Fannia Entertainment, saya mau tahu lebih dalam tentang layanan EO/WO-nya.",
     "actions": [
-      { "label": "💎 Lihat Paket Harga", "value": "paket harga" },
-      { "label": "⬅️ Kembali ke Menu", "value": "halo" }
+      { "label": "Lihat Paket Harga", "value": "paket harga" },
+      { "label": "Kembali ke Menu", "value": "halo" }
     ]
   },
   {
     "intent": "layanan_servis",
     "menu_number": "2",
-    "keywords": ["layanan", "servis", "service", "bisa", "bantu", "ngurus", "sedia", "kalian", "ngapain", "gathering", "gath", "corporate", "dekorasi", "dekor", "catering", "pesta", "sound", "lighting"],
-    "priority_keywords": ["ulang tahun", "ultah", "birthday", "sweet 17", "sweet seventeen", "gathering"],
-    "reply": "Kami menyediakan layanan lengkap (All-in), meliputi:\n- Wedding Organizer & Planner\n- Corporate & Family Gathering\n- Sweet 17th / Birthday Party\n- Sound System, Lighting, & Stage Management.",
+    "keywords": ["layanan", "servis", "service", "bisa", "bantu", "ngurus", "sedia", "kalian", "ngapain", "gathering", "gath", "corporate", "dekorasi", "dekor", "catering", "pesta", "sound", "lighting", "launching", "gala dinner", "team building"],
+    "priority_keywords": ["layanan", "featured service", "ala carte", "ulang tahun", "ultah", "birthday", "sweet 17", "sweet seventeen", "gathering"],
+    "reply": "Kami menyediakan solusi lengkap untuk menghadirkan acara yang elegan, berkesan, dan profesional:\n\n1. Wedding Organizer: Konsep eksklusif, detail elegan (Full Planning mulai 40 Jt)\n2. Perencanaan Acara Perusahaan: Seminar, Konferensi, Product Launch, Gala Dinner, & Team Building (Mulai 25 Jt)\n3. Vendor Management, Creative Concept, & Premium Entertainment.\n\n*Tersedia juga Layanan Ala Carte (MC, Makeup, Lighting, Documentation, Team, dll) sesuai kebutuhan Anda!",
     "next_state": "none",
     "wa_number": "6281316429729",
     "wa_text": "Halo Admin Fannia Entertainment, saya mau konsultasi layanan acara.",
     "actions": [
-      { "label": "🎤 Tanya Soal Vendor", "value": "vendor" },
-      { "label": "⬅️ Kembali ke Menu", "value": "halo" }
+      { "label": "Cek Mitra Vendor", "value": "mitra vendor" },
+      { "label": "Kembali ke Menu", "value": "halo" }
     ]
   },
   {
     "intent": "paket_dan_harga",
     "menu_number": "3",
-    "keywords": ["paket", "harga", "pricelist", "biaya", "wedding", "nikah", "event", "dana", "budget", "brpaan", "murah", "silver", "gold", "price", "cost", "rate", "bayar", "berapa", "kisaran", "hagra", "harganya"],
-    "priority_keywords": ["harga", "paket", "pricelist", "biaya", "hagra"],
-    "reply": "Berikut daftar paket terfavorit di Fannia Entertainment:\n\n💎 PAKET WEDDING:\n1. Silver (300 Undangan) - Rp 25 Juta\n2. Gold (600 Undangan) - Rp 45 Juta\n\n🎉 PAKET EVENT / GATHERING:\n- Mulai dari Rp 15 Juta (All-in termasuk MC & Sound)\n\nKakak tertarik untuk buat acara apa nih?",
+    "keywords": ["paket", "harga", "pricelist", "biaya", "wedding", "nikah", "event", "dana", "budget", "brpaan", "murah", "silver", "gold", "price", "cost", "rate", "bayar", "berapa", "kisaran", "hagra", "harganya", "bronze", "ruby", "emerald", "diamond"],
+    "priority_keywords": ["harga", "paket", "pricelist", "biaya", "harganya"],
+    "reply": "Berikut daftar Premium Wedding Package eksklusif di Fannia Entertainment:\n\n1. Bronze - Rp 27.500.000\n2. Silver - Rp 30.500.000\n3. Gold - Rp 35.500.000\n4. Ruby - Rp 50.500.000\n5. Emerald - Rp 58.800.000\n6. Diamond - Rp 70.500.000\n\nSemua paket sudah termasuk fasilitas premium sesuai kelasnya. Kakak tertarik untuk melihat rincian detail paket nomor berapa?\n\nPilih nomor 1 - 6 untuk melihat rincian isi paket.",
     "next_state": "tanya_paket",
     "wa_number": "6281316429729",
     "wa_text": "Halo Admin Fannia Entertainment, saya mau minta brosur paket dan pricelist lengkapnya dong.",
     "actions": [
-      { "label": "📝 Tanya Ketentuan DP", "value": "dp pembayaran" },
-      { "label": "⬅️ Kembali ke Menu", "value": "halo" }
+      { "label": "Bronze", "value": "1" },
+      { "label": "Silver", "value": "2" },
+      { "label": "Gold", "value": "3" },
+      { "label": "Ruby", "value": "4" },
+      { "label": "Emerald", "value": "5" },
+      { "label": "Diamond", "value": "6" }
+    ]
+  },
+  {
+    "intent": "cara_kerja",
+    "menu_number": null,
+    "keywords": ["cara kerja", "proses", "alur", "langkah", "step", "gimana order", "pemesanan", "prosedur"],
+    "priority_keywords": ["cara kerja", "alur pemesanan", "proses mudah"],
+    "reply": "Proses kerja kami sangat mudah & jelas melalui 4 tahapan berikut:\n\n01. Konsultasi Awal\nCeritakan impian pernikahan/acara Anda kepada kami. Gratis, tanpa komitmen!\n\n02. Rencana Konsep\nTim kami merancang konsep dan proposal sesuai visi & budget Anda.\n\n03. Eksekusi & Koordinasi\nKami mengkoordinasikan semua vendor dan detail teknis hingga hari H.\n\n04. Hari Istimewa\nNikmati momen indah Anda tanpa khawatir, biar kami yang urus segalanya!",
+    "next_state": "none",
+    "wa_number": "6281316429729",
+    "wa_text": "Halo Admin Fannia Entertainment, saya mau konsultasi awal mengenai rencana acara saya.",
+    "actions": [
+      { "label": "Buat Janji Konsultasi", "value": "booking" },
+      { "label": "Kembali", "value": "halo" }
+    ]
+  },
+  {
+    "intent": "mitra_vendor",
+    "menu_number": null,
+    "keywords": ["vendor", "mitra", "partner", "rekanan", "fotografer", "catering", "entertainment", "lima moto", "ayu bintang", "lahasa", "parikesit", "ragam budaya"],
+    "priority_keywords": ["mitra vendor", "partner", "rekanan"],
+    "reply": "Kami bekerja sama dengan berbagai Trusted Premium Partners untuk memastikan kualitas acara Anda:\n\n- Fotografer: Lima Moto\n- Catering: Ayu Bintang Catering\n- Entertainment: Lahasa Entertainment & Sanggar Parikesit\n- Cultural Events: Yayasan Ragam Budaya\n\nApakah kakak ingin menggunakan vendor rekanan kami atau membawa vendor luar (bisa dibantu koordinasikan)?",
+    "next_state": "none",
+    "wa_number": "6281316429729",
+    "wa_text": "Halo Admin Fannia Entertainment, saya mau tanya seputar vendor rekanan.",
+    "actions": [
+      { "label": "Cek Aturan Vendor Luar", "value": "faq" },
+      { "label": "Kembali", "value": "halo" }
+    ]
+  },
+  {
+    "intent": "faq",
+    "menu_number": null,
+    "keywords": ["faq", "tanya", "pertanyaan umum", "custom", "all-in", "persiapan", "vendor luar", "luar kota"],
+    "priority_keywords": ["faq", "pertanyaan umum"],
+    "reply": "Berikut beberapa pertanyaan yang sering ditanyakan (FAQ):\n\nApakah bisa request konsep custom?\nTentu, kami menyesuaikan seluruh konsep dekorasi, rundown, & detail sesuai impian Anda.\n\nApakah tersedia paket all-in wedding?\nYa, kami menyediakan paket lengkap mulai venue, dekorasi, MUA, documentation, hingga WO.\n\nApakah bisa menggunakan vendor luar?\nBisa banget! Kami sangat fleksibel dan tetap membantu proses koordinasinya.\n\nApakah melayani acara luar kota?\nYa, kami melayani wedding & event di berbagai kota sesuai kebutuhan.",
+    "next_state": "none",
+    "wa_number": "6281316429729",
+    "wa_text": "Halo Admin Fannia Entertainment, saya ada pertanyaan lebih lanjut mengenai layanan kustom.",
+    "actions": [
+      { "label": "Cek Paket", "value": "paket dan harga" },
+      { "label": "Kembali ke Menu", "value": "halo" }
     ]
   },
   {
     "intent": "testimoni",
     "menu_number": "4",
-    "keywords": ["testi", "testimoni", "review", "kata orang", "bagus ga", "puas", "portofolio", "dokumentasi", "klien", "pengalaman", "ulasan"],
-    "priority_keywords": ["testi", "testimoni", "review", "ulasan"],
-    "reply": "Alhamdulillah, ratusan klien kami menyatakan puas banget! Rata-rata mereka memuji tim kami yang cekatan, on-time, dan dekorasi yang melebihi ekspektasi. Kakak bisa cek dokumentasi acara asli kami di link website atau Instagram kami ya! ✨",
+    "keywords": ["testi", "testimoni", "review", "kata orang", "bagus ga", "puas", "portofolio", "dokumentasi", "klien", "pengalaman", "ulasan", "gallery", "galeri", "foto", "video"],
+    "priority_keywords": ["testi", "testimoni", "review", "gallery", "ulasan"],
+    "reply": "Alhamdulillah, ratusan klien menyatakan puas banget (100% Client Satisfaction)!\n\nKakak bisa melihat Event Gallery dokumentasi terbaik kami yang penuh kehangatan & kemewahan (Luxury Wedding, Elegant Decoration, Romantic Venue, Corporate Event) langsung melalui link website atau Instagram kami di @fanniaentertainment ya!",
     "next_state": "none",
     "wa_number": "6281316429729",
     "wa_text": "Halo Admin Fannia Entertainment, boleh liat foto/video dokumentasi acara yang pernah dihandle?",
     "actions": [
-      { "label": "📸 Minta Dokumentasi (WA)", "value": "testi" },
-      { "label": "⬅️ Kembali ke Menu", "value": "halo" }
+      { "label": "Minta Dokumentasi (WA)", "value": "booking" },
+      { "label": "Kembali ke Menu", "value": "halo" }
     ]
   },
   {
     "intent": "kontak_lokasi",
     "menu_number": "5",
-    "keywords": ["kontak", "alamat", "lokasi", "kantor", "wa", "nomor", "tangerang", "pasar kemis", "instagram", "ig", "call", "phone", "address", "location", "maps", "shareloc", "no hp", "whatsapp"],
-    "priority_keywords": ["hubungi", "kontak", "alamat", "lokasi", "no wa", "whatsapp", "daftar", "booking"],
-    "reply": "Kantor Fannia Entertainment berlokasi di Tangerang. Untuk konsultasi tatap muka, kakak bisa membuat janji terlebih dahulu.\n\n📞 WhatsApp: +62 813-1642-9729\n🌐 Instagram: @fanniaentertainment",
+    "keywords": ["kontak", "alamat", "lokasi", "kantor", "wa", "nomor", "bogor", "gunung sindur", "pasar kemis", "tangerang", "instagram", "ig", "call", "phone", "address", "location", "maps", "shareloc", "no hp", "whatsapp", "email"],
+    "priority_keywords": ["hubungi", "kontak", "alamat", "lokasi", "no wa", "whatsapp"],
+    "reply": "Hubungi Fannia Entertainment sekarang untuk mendapatkan konsultasi gratis mengenai acara spesial Anda:\n\nAlamat Kantor:\nGg. Swadaya Jl. Kp. Cibarengkok No.117, RT.03/RW.03, Pengasinan, Kec. Gn. Sindur, Kabupaten Bogor, Jawa Barat 16340\n\nWhatsApp: +62 813-1642-9729\nEmail: fanniaweddingentertainment@gmail.com\nInstagram: @fanniaentertainment",
     "next_state": "none",
     "wa_number": "6281316429729",
     "wa_text": "Halo Admin Fannia Entertainment, saya mau atur jadwal ketemu untuk konsultasi acara.",
     "actions": [
-      { "label": "🕰️ Cek Jam Kerja", "value": "jam operasional" },
-      { "label": "📅 Jadwalkan Pertemuan", "value": "booking" }
+      { "label": "Cek Jam Kerja", "value": "jam operasional" },
+      { "label": "Jadwalkan Pertemuan", "value": "booking" }
     ]
   },
   {
@@ -90,27 +138,13 @@
     "menu_number": null,
     "keywords": ["booking", "book", "reservasi", "pesan", "daftar", "order", "jadwal", "meeting"],
     "priority_keywords": ["booking", "reservasi", "pesan paket"],
-    "reply": "Untuk melakukan booking atau konsultasi, kakak bisa langsung menghubungi admin melalui WhatsApp. Tim kami akan membantu menentukan paket dan jadwal yang sesuai ya ✨",
+    "reply": "Untuk melakukan booking atau konsultasi, kakak bisa langsung menghubungi admin melalui WhatsApp. Tim kami akan membantu menentukan paket dan jadwal yang sesuai ya.",
     "next_state": "none",
     "wa_number": "6281316429729",
     "wa_text": "Halo Admin Fannia Entertainment, saya ingin melakukan booking dan konsultasi acara.",
     "actions": [
-      { "label": "📆 Cek Ketersediaan Tanggal", "value": "cek jadwal" },
-      { "label": "⬅️ Kembali", "value": "halo" }
-    ]
-  },
-  {
-    "intent": "vendor",
-    "menu_number": null,
-    "keywords": ["vendor", "dekorasi", "mc", "catering", "sound", "lighting", "musik", "band"],
-    "priority_keywords": ["dekorasi", "catering", "mc"],
-    "reply": "Tentu kak ✨ Kami menyediakan berbagai vendor pendukung acara seperti dekorasi, catering, MC, sound system, lighting, dokumentasi, hingga entertainment.",
-    "next_state": "none",
-    "wa_number": "6281316429729",
-    "wa_text": "Halo Admin Fannia Entertainment, saya ingin konsultasi vendor acara.",
-    "actions": [
-      { "label": "📍 Cek Cakupan Wilayah", "value": "cakupan wilayah" },
-      { "label": "⬅️ Kembali", "value": "halo" }
+      { "label": "Cek Ketersediaan Tanggal", "value": "cek jadwal" },
+      { "label": "Kembali", "value": "halo" }
     ]
   },
   {
@@ -123,7 +157,73 @@
     "wa_number": "6281316429729",
     "wa_text": "Halo Admin Fannia Entertainment, saya ingin cek ketersediaan jadwal acara.",
     "actions": [
-      { "label": "📞 Hubungi WA Admin", "value": "booking" }
+      { "label": "Hubungi WA Admin", "value": "booking" }
+    ]
+  },
+  {
+    "intent": "dp_pembayaran",
+    "menu_number": null,
+    "keywords": ["dp", "uang muka", "down payment", "bayar awal"],
+    "priority_keywords": ["dp", "uang muka"],
+    "reply": "Untuk mengamankan tanggal acara, diperlukan DP sebesar 30% dari total paket yang dipilih ya kak.",
+    "next_state": "none",
+    "wa_number": "6281316429729",
+    "wa_text": "Halo Admin Fannia Entertainment, saya ingin menanyakan ketentuan DP untuk acara saya.",
+    "actions": [
+      { "label": "Info Pelunasan", "value": "pelunasan" },
+      { "label": "Metode Pembayaran", "value": "metode pembayaran" }
+    ]
+  },
+  {
+    "intent": "pelunasan",
+    "menu_number": null,
+    "keywords": ["pelunasan", "lunas", "bayar penuh", "sisa pembayaran"],
+    "priority_keywords": ["pelunasan", "lunas"],
+    "reply": "Pelunasan dilakukan maksimal H-7 sebelum acara berlangsung agar seluruh persiapan dapat berjalan dengan lancar.",
+    "next_state": "none",
+    "wa_number": "6281316429729",
+    "wa_text": "Halo Admin Fannia Entertainment, saya ingin menanyakan ketentuan pelunasan pembayaran.",
+    "actions": [
+      { "label": "Ketentuan Perubahan Acara", "value": "revisi acara" }
+    ]
+  },
+  {
+    "intent": "revisi_acara",
+    "menu_number": null,
+    "keywords": ["ubah", "revisi", "ganti", "perubahan", "ubah paket"],
+    "priority_keywords": ["revisi", "ubah paket"],
+    "reply": "Perubahan detail acara atau paket dapat dilakukan sesuai ketentuan yang berlaku. Silakan konsultasikan dengan admin kami ya kak.",
+    "next_state": "none",
+    "wa_number": "6281316429729",
+    "wa_text": "Halo Admin Fannia Entertainment, saya ingin melakukan revisi pada paket atau detail acara.",
+    "actions": [
+      { "label": "Diskusikan di WA", "value": "booking" }
+    ]
+  },
+  {
+    "intent": "metode_pembayaran",
+    "menu_number": null,
+    "keywords": ["transfer", "cash", "qris", "bank", "pembayaran"],
+    "priority_keywords": ["metode pembayaran", "transfer"],
+    "reply": "Kami menerima pembayaran melalui transfer bank dan metode resmi lain yang akan diinformasikan langsung oleh admin kami.",
+    "next_state": "none",
+    "wa_number": "6281316429729",
+    "wa_text": "Halo Admin Fannia Entertainment, saya ingin mengetahui metode pembayaran yang tersedia.",
+    "actions": [
+      { "label": "Kembali ke Menu", "value": "halo" }
+    ]
+  },
+  {
+    "intent": "jam_operasional",
+    "menu_number": null,
+    "keywords": ["jam buka", "operasional", "buka", "tutup", "jam kerja"],
+    "priority_keywords": ["jam operasional"],
+    "reply": "Jam operasional Fannia Entertainment adalah Senin-Sabtu pukul 09.00-17.00 WIB. Untuk kebutuhan mendesak, kakak tetap bisa menghubungi WhatsApp kami.",
+    "next_state": "none",
+    "wa_number": "6281316429729",
+    "wa_text": "Halo Admin Fannia Entertainment, saya ingin mengetahui jam operasional Fannia Entertainment.",
+    "actions": [
+      { "label": "Kembali ke Menu", "value": "halo" }
     ]
   },
   {
@@ -136,48 +236,8 @@
     "wa_number": "6281316429729",
     "wa_text": "Halo Admin Fannia Entertainment, saya ingin menanyakan cakupan wilayah layanan.",
     "actions": [
-      { "label": "🚗 Survei Lokasi", "value": "survei lokasi" },
-      { "label": "⬅️ Kembali", "value": "halo" }
-    ]
-  },
-  {
-    "intent": "dp_pembayaran",
-    "menu_number": null,
-    "keywords": ["dp", "uang muka", "down payment", "bayar awal"],
-    "priority_keywords": ["dp", "uang muka"],
-    "reply": "Untuk mengamankan tanggal acara, diperlukan DP sebesar 30% dari total paket yang dipilih ya kak ✨",
-    "next_state": "none",
-    "wa_number": "6281316429729",
-    "wa_text": "Halo Admin Fannia Entertainment, saya ingin menanyakan ketentuan DP untuk acara saya.",
-    "actions": [
-      { "label": "💰 Info Pelunasan", "value": "pelunasan" },
-      { "label": "💳 Metode Pembayaran", "value": "metode pembayaran" }
-    ]
-  },
-  {
-    "intent": "pelunasan",
-    "menu_number": null,
-    "keywords": ["pelunasan", "lunas", "bayar penuh", "sisa pembayaran"],
-    "priority_keywords": ["pelunasan", "lunas"],
-    "reply": "Pelunasan dilakukan maksimal H-7 sebelum acara berlangsung agar seluruh persiapan dapat berjalan dengan lancar 😊",
-    "next_state": "none",
-    "wa_number": "6281316429729",
-    "wa_text": "Halo Admin Fannia Entertainment, saya ingin menanyakan ketentuan pelunasan pembayaran.",
-    "actions": [
-      { "label": "⚙️ Ketentuan Perubahan Acara", "value": "revisi acara" }
-    ]
-  },
-  {
-    "intent": "revisi_acara",
-    "menu_number": null,
-    "keywords": ["ubah", "revisi", "ganti", "perubahan", "ubah paket"],
-    "priority_keywords": ["revisi", "ubah paket"],
-    "reply": "Perubahan detail acara atau paket dapat dilakukan sesuai ketentuan yang berlaku. Silakan konsultasikan dengan admin kami ya kak ✨",
-    "next_state": "none",
-    "wa_number": "6281316429729",
-    "wa_text": "Halo Admin Fannia Entertainment, saya ingin melakukan revisi pada paket atau detail acara.",
-    "actions": [
-      { "label": "📞 Diskusikan di WA", "value": "revisi" }
+      { "label": "Survei Lokasi", "value": "survei lokasi" },
+      { "label": "Kembali", "value": "halo" }
     ]
   },
   {
@@ -185,12 +245,12 @@
     "menu_number": null,
     "keywords": ["undangan", "kapasitas", "jumlah tamu", "tamu"],
     "priority_keywords": ["jumlah undangan", "kapasitas"],
-    "reply": "Jumlah undangan dapat disesuaikan dengan kebutuhan acara kak. Tim kami akan membantu menyesuaikan paket terbaik sesuai jumlah tamu yang diinginkan 😊",
+    "reply": "Jumlah undangan dapat disesuaikan dengan kebutuhan acara kak. Tim kami akan membantu menyesuaikan paket terbaik sesuai jumlah tamu yang diinginkan",
     "next_state": "none",
     "wa_number": "6281316429729",
     "wa_text": "Halo Admin Fannia Entertainment, saya ingin konsultasi mengenai jumlah undangan acara.",
     "actions": [
-      { "label": "⏳ Berapa Lama Persiapannya?", "value": "waktu persiapan" }
+      { "label": "Berapa Lama Persiapannya?", "value": "waktu persiapan" }
     ]
   },
   {
@@ -198,12 +258,12 @@
     "menu_number": null,
     "keywords": ["berapa lama", "persiapan", "proses", "durasi", "timeline"],
     "priority_keywords": ["persiapan", "timeline"],
-    "reply": "Idealnya persiapan acara dilakukan minimal 3–6 bulan sebelum hari H agar seluruh kebutuhan dapat dipersiapkan secara maksimal.",
+    "reply": "Idealnya persiapan acara dilakukan minimal 3-6 bulan sebelum hari H agar seluruh kebutuhan dapat dipersiapkan secara maksimal.",
     "next_state": "none",
     "wa_number": "6281316429729",
     "wa_text": "Halo Admin Fannia Entertainment, saya ingin mengetahui timeline persiapan acara.",
     "actions": [
-      { "label": "📅 Buat Janji Konsultasi", "value": "konsultasi" }
+      { "label": "Buat Janji Konsultasi", "value": "konsultasi" }
     ]
   },
   {
@@ -216,20 +276,7 @@
     "wa_number": "6281316429729",
     "wa_text": "Halo Admin Fannia Entertainment, saya ingin menjadwalkan survei lokasi acara.",
     "actions": [
-      { "label": "📞 Jadwalkan via WA", "value": "survei lokasi" }
-    ]
-  },
-  {
-    "intent": "metode_pembayaran",
-    "menu_number": null,
-    "keywords": ["transfer", "cash", "qris", "bank", "pembayaran"],
-    "priority_keywords": ["metode pembayaran", "transfer"],
-    "reply": "Kami menerima pembayaran melalui transfer bank dan metode lain yang akan diinformasikan langsung oleh admin kami 😊",
-    "next_state": "none",
-    "wa_number": "6281316429729",
-    "wa_text": "Halo Admin Fannia Entertainment, saya ingin mengetahui metode pembayaran yang tersedia.",
-    "actions": [
-      { "label": "🔥 Cek Promo/Diskon", "value": "promo diskon" }
+      { "label": "Jadwalkan via WA", "value": "survei lokasi" }
     ]
   },
   {
@@ -237,12 +284,12 @@
     "menu_number": null,
     "keywords": ["promo", "diskon", "potongan harga", "cashback"],
     "priority_keywords": ["promo", "diskon"],
-    "reply": "Promo dan penawaran spesial dapat berubah sewaktu-waktu. Silakan hubungi admin untuk mendapatkan informasi promo terbaru ya kak 🎉",
+    "reply": "Promo dan penawaran spesial dapat berubah sewaktu-waktu. Silakan hubungi admin untuk mendapatkan informasi promo terbaru ya kak",
     "next_state": "none",
     "wa_number": "6281316429729",
     "wa_text": "Halo Admin Fannia Entertainment, apakah saat ini ada promo atau diskon yang tersedia?",
     "actions": [
-      { "label": "📱 Tanya Promo Terkini", "value": "promo" }
+      { "label": "Tanya Promo Terkini", "value": "promo" }
     ]
   },
   {
@@ -250,35 +297,22 @@
     "menu_number": null,
     "keywords": ["konsultasi", "diskusi", "tanya langsung", "meeting"],
     "priority_keywords": ["konsultasi"],
-    "reply": "Tentu kak 😊 Kami menyediakan sesi konsultasi untuk membantu merencanakan acara impian kakak. Silakan hubungi admin untuk menjadwalkan konsultasi.",
+    "reply": "Tentu kak. Kami menyediakan sesi konsultasi untuk membantu merencanakan acara impian kakak. Silakan hubungi admin untuk menjadwalkan konsultasi.",
     "next_state": "none",
     "wa_number": "6281316429729",
     "wa_text": "Halo Admin Fannia Entertainment, saya ingin menjadwalkan konsultasi acara.",
     "actions": [
-      { "label": "📞 Hubungi WhatsApp", "value": "konsultasi" }
-    ]
-  },
-  {
-    "intent": "jam_operasional",
-    "menu_number": null,
-    "keywords": ["jam buka", "operasional", "buka", "tutup", "jam kerja"],
-    "priority_keywords": ["jam operasional"],
-    "reply": "Jam operasional Fannia Entertainment adalah Senin–Sabtu pukul 09.00–17.00 WIB. Untuk kebutuhan mendesak, kakak tetap bisa menghubungi WhatsApp kami 😊",
-    "next_state": "none",
-    "wa_number": "6281316429729",
-    "wa_text": "Halo Admin Fannia Entertainment, saya ingin mengetahui jam operasional Fannia Entertainment.",
-    "actions": [
-      { "label": "⬅️ Kembali ke Menu", "value": "halo" }
+      { "label": "Hubungi WhatsApp", "value": "konsultasi" }
     ]
   },
   {
     "intent": "fallback",
-    "reply": "Maaf kak, saya belum memahami pertanyaan tersebut 🙏 Silakan pilih menu di bawah atau hubungi admin untuk konsultasi langsung.",
+    "reply": "Maaf kak, saya belum memahami pertanyaan tersebut. Silakan pilih menu di bawah atau hubungi admin untuk konsultasi langsung.",
     "next_state": "none",
     "wa_number": "6281316429729",
     "wa_text": "Maaf, saya butuh panduan langsung dari Admin mengenai layanan Fannia.",
     "actions": [
-      { "label": "⬅️ Lihat Menu Utama", "value": "halo" }
+      { "label": "Lihat Menu Utama", "value": "halo" }
     ]
   }
 ]
